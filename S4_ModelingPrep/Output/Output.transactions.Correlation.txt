@@ -1,0 +1,1385 @@
+Input file is: /home/shell/Data/DS/transactions.modelingPopulation.jsonl
+Output results are found here: Output/Output.transactions.Correlation.txt
+---------Correlation Matrix--------
+                                   accountNumber  customerId  creditLimit  \
+accountNumber                           1.000000    1.000000     0.002106   
+customerId                              1.000000    1.000000     0.002106   
+creditLimit                             0.002106    0.002106     1.000000   
+availableMoney                         -0.001581   -0.001581     0.949026   
+transactionAmount                       0.010912    0.010912     0.015180   
+cardCVV                                 0.003550    0.003550    -0.005132   
+enteredCVV                              0.003109    0.003109    -0.004105   
+cardLast4Digits                        -0.019268   -0.019268     0.000136   
+currentBalance                          0.011448    0.011448     0.312581   
+cardPresent                            -0.035584   -0.035584    -0.005930   
+expirationDateKeyInMatch                0.016253    0.016253     0.036710   
+isFraud                                 0.001395    0.001395     0.022822   
+transactionDateTimeDtType               0.004356    0.004356     0.028291   
+currentExpDateDtType                   -0.007550   -0.007550     0.006756   
+accountOpenDateDtType                   0.005159    0.005159    -0.004509   
+dateOfLastAddressChangeDtType           0.006894    0.006894    -0.004422   
+gTransactionDateTime                    0.004356    0.004356     0.028291   
+gChangeInTransactionAmount              0.001004    0.001004    -0.011890   
+gChangeInTransactionTime                0.000108    0.000108     0.018558   
+gChangeInTransactionTimeMonths          0.000108    0.000108     0.018558   
+gChangeInTransactionTimeDays            0.000108    0.000108     0.018558   
+gChangeInTransactionTimeMinutes         0.000108    0.000108     0.018558   
+gDateOfLastAddressChange                0.006894    0.006894    -0.004422   
+gAccountOpenDate                        0.005159    0.005159    -0.004509   
+gNumDaysSinceLastAddressChange         -0.001599   -0.001599    -0.014870   
+gIndLastAddressChangeWithin30Days      -0.006032   -0.006032    -0.000038   
+gNumMonthsOpen                         -0.004504   -0.004504     0.008456   
+gMerchantCategoryCodeRiskTable         -0.018165   -0.018165    -0.001797   
+gIndFraudCustomer                       0.001395    0.001395     0.022822   
+gIndFirstFraud                          0.001395    0.001395     0.022822   
+gRandomNumber                          -0.013722   -0.013722    -0.018825   
+gSelectedObservation                         NaN         NaN          NaN   
+
+                                   availableMoney  transactionAmount  \
+accountNumber                           -0.001581           0.010912   
+customerId                              -0.001581           0.010912   
+creditLimit                              0.949026           0.015180   
+availableMoney                           1.000000          -0.030786   
+transactionAmount                       -0.030786           1.000000   
+cardCVV                                 -0.003430          -0.006488   
+enteredCVV                              -0.003375          -0.006941   
+cardLast4Digits                         -0.001973           0.012361   
+currentBalance                          -0.002757           0.140939   
+cardPresent                              0.000779          -0.039676   
+expirationDateKeyInMatch                 0.042012          -0.008211   
+isFraud                                 -0.071437           0.392463   
+transactionDateTimeDtType               -0.047235          -0.004064   
+currentExpDateDtType                    -0.000258          -0.002803   
+accountOpenDateDtType                   -0.011822          -0.005517   
+dateOfLastAddressChangeDtType           -0.051976           0.065613   
+gTransactionDateTime                    -0.047235          -0.004064   
+gChangeInTransactionAmount               0.019969           0.570011   
+gChangeInTransactionTime                -0.050175           0.082578   
+gChangeInTransactionTimeMonths          -0.050175           0.082578   
+gChangeInTransactionTimeDays            -0.050175           0.082578   
+gChangeInTransactionTimeMinutes         -0.050175           0.082578   
+gDateOfLastAddressChange                -0.051976           0.065613   
+gAccountOpenDate                        -0.011822          -0.005517   
+gNumDaysSinceLastAddressChange           0.075300          -0.153990   
+gIndLastAddressChangeWithin30Days       -0.041955           0.082095   
+gNumMonthsOpen                           0.005074           0.004900   
+gMerchantCategoryCodeRiskTable           0.056590          -0.404560   
+gIndFraudCustomer                       -0.071437           0.392463   
+gIndFirstFraud                          -0.071437           0.392463   
+gRandomNumber                            0.046893          -0.269742   
+gSelectedObservation                          NaN                NaN   
+
+                                    cardCVV  enteredCVV  cardLast4Digits  \
+accountNumber                      0.003550    0.003109        -0.019268   
+customerId                         0.003550    0.003109        -0.019268   
+creditLimit                       -0.005132   -0.004105         0.000136   
+availableMoney                    -0.003430   -0.003375        -0.001973   
+transactionAmount                 -0.006488   -0.006941         0.012361   
+cardCVV                            1.000000    0.995170         0.005026   
+enteredCVV                         0.995170    1.000000         0.004995   
+cardLast4Digits                    0.005026    0.004995         1.000000   
+currentBalance                    -0.005946   -0.002854         0.006375   
+cardPresent                       -0.015072   -0.018167         0.002903   
+expirationDateKeyInMatch           0.035497    0.035521        -0.014589   
+isFraud                           -0.003031   -0.003703         0.011148   
+transactionDateTimeDtType         -0.010083   -0.008943         0.000807   
+currentExpDateDtType               0.003325    0.004643        -0.017976   
+accountOpenDateDtType             -0.007113   -0.005454        -0.005186   
+dateOfLastAddressChangeDtType     -0.004728   -0.002324        -0.021488   
+gTransactionDateTime              -0.010083   -0.008943         0.000807   
+gChangeInTransactionAmount         0.001235   -0.001189        -0.008119   
+gChangeInTransactionTime          -0.000813   -0.000325         0.001326   
+gChangeInTransactionTimeMonths    -0.000813   -0.000325         0.001326   
+gChangeInTransactionTimeDays      -0.000813   -0.000325         0.001326   
+gChangeInTransactionTimeMinutes   -0.000813   -0.000325         0.001326   
+gDateOfLastAddressChange          -0.004728   -0.002324        -0.021488   
+gAccountOpenDate                  -0.007113   -0.005454        -0.005186   
+gNumDaysSinceLastAddressChange     0.007302    0.004590         0.022122   
+gIndLastAddressChangeWithin30Days  0.008609    0.008723        -0.004334   
+gNumMonthsOpen                     0.005634    0.004149         0.005257   
+gMerchantCategoryCodeRiskTable    -0.005084   -0.006551        -0.000623   
+gIndFraudCustomer                 -0.003031   -0.003703         0.011148   
+gIndFirstFraud                    -0.003031   -0.003703         0.011148   
+gRandomNumber                      0.015218    0.016414        -0.015685   
+gSelectedObservation                    NaN         NaN              NaN   
+
+                                   currentBalance  cardPresent  \
+accountNumber                            0.011448    -0.035584   
+customerId                               0.011448    -0.035584   
+creditLimit                              0.312581    -0.005930   
+availableMoney                          -0.002757     0.000779   
+transactionAmount                        0.140939    -0.039676   
+cardCVV                                 -0.005946    -0.015072   
+enteredCVV                              -0.002854    -0.018167   
+cardLast4Digits                          0.006375     0.002903   
+currentBalance                           1.000000    -0.021160   
+cardPresent                             -0.021160     1.000000   
+expirationDateKeyInMatch                -0.010143     0.039085   
+isFraud                                  0.287690    -0.161170   
+transactionDateTimeDtType                0.232103    -0.050271   
+currentExpDateDtType                     0.022211    -0.004243   
+accountOpenDateDtType                    0.021323     0.008850   
+dateOfLastAddressChangeDtType            0.142606    -0.013577   
+gTransactionDateTime                     0.232103    -0.050271   
+gChangeInTransactionAmount              -0.096496    -0.023659   
+gChangeInTransactionTime                 0.207031    -0.054921   
+gChangeInTransactionTimeMonths           0.207031    -0.054921   
+gChangeInTransactionTimeDays             0.207031    -0.054921   
+gChangeInTransactionTimeMinutes          0.207031    -0.054921   
+gDateOfLastAddressChange                 0.142606    -0.013577   
+gAccountOpenDate                         0.021323     0.008850   
+gNumDaysSinceLastAddressChange          -0.274103     0.038102   
+gIndLastAddressChangeWithin30Days        0.126318    -0.020524   
+gNumMonthsOpen                           0.011538    -0.015856   
+gMerchantCategoryCodeRiskTable          -0.175927     0.107516   
+gIndFraudCustomer                        0.287690    -0.161170   
+gIndFirstFraud                           0.287690    -0.161170   
+gRandomNumber                           -0.201042     0.134896   
+gSelectedObservation                          NaN          NaN   
+
+                                   expirationDateKeyInMatch   isFraud  \
+accountNumber                                      0.016253  0.001395   
+customerId                                         0.016253  0.001395   
+creditLimit                                        0.036710  0.022822   
+availableMoney                                     0.042012 -0.071437   
+transactionAmount                                 -0.008211  0.392463   
+cardCVV                                            0.035497 -0.003031   
+enteredCVV                                         0.035521 -0.003703   
+cardLast4Digits                                   -0.014589  0.011148   
+currentBalance                                    -0.010143  0.287690   
+cardPresent                                        0.039085 -0.161170   
+expirationDateKeyInMatch                           1.000000 -0.000756   
+isFraud                                           -0.000756  1.000000   
+transactionDateTimeDtType                          0.000603  0.151262   
+currentExpDateDtType                               0.001299  0.023326   
+accountOpenDateDtType                             -0.001929 -0.008964   
+dateOfLastAddressChangeDtType                      0.005338  0.153292   
+gTransactionDateTime                               0.000603  0.151262   
+gChangeInTransactionAmount                        -0.008356  0.018030   
+gChangeInTransactionTime                          -0.007889  0.197867   
+gChangeInTransactionTimeMonths                    -0.007889  0.197867   
+gChangeInTransactionTimeDays                      -0.007889  0.197867   
+gChangeInTransactionTimeMinutes                   -0.007889  0.197867   
+gDateOfLastAddressChange                           0.005338  0.153292   
+gAccountOpenDate                                  -0.001929 -0.008964   
+gNumDaysSinceLastAddressChange                    -0.005413 -0.308818   
+gIndLastAddressChangeWithin30Days                 -0.005829  0.158535   
+gNumMonthsOpen                                     0.001998  0.030191   
+gMerchantCategoryCodeRiskTable                     0.004970 -0.470296   
+gIndFraudCustomer                                 -0.000756  1.000000   
+gIndFirstFraud                                    -0.000756  1.000000   
+gRandomNumber                                      0.018163 -0.737522   
+gSelectedObservation                                    NaN       NaN   
+
+                                   transactionDateTimeDtType  \
+accountNumber                                       0.004356   
+customerId                                          0.004356   
+creditLimit                                         0.028291   
+availableMoney                                     -0.047235   
+transactionAmount                                  -0.004064   
+cardCVV                                            -0.010083   
+enteredCVV                                         -0.008943   
+cardLast4Digits                                     0.000807   
+currentBalance                                      0.232103   
+cardPresent                                        -0.050271   
+expirationDateKeyInMatch                            0.000603   
+isFraud                                             0.151262   
+transactionDateTimeDtType                           1.000000   
+currentExpDateDtType                                0.024207   
+accountOpenDateDtType                               0.012451   
+dateOfLastAddressChangeDtType                       0.158020   
+gTransactionDateTime                                1.000000   
+gChangeInTransactionAmount                         -0.080797   
+gChangeInTransactionTime                            0.658749   
+gChangeInTransactionTimeMonths                      0.658749   
+gChangeInTransactionTimeDays                        0.658749   
+gChangeInTransactionTimeMinutes                     0.658749   
+gDateOfLastAddressChange                            0.158020   
+gAccountOpenDate                                    0.012451   
+gNumDaysSinceLastAddressChange                     -0.262459   
+gIndLastAddressChangeWithin30Days                   0.121631   
+gNumMonthsOpen                                      0.128473   
+gMerchantCategoryCodeRiskTable                      0.123144   
+gIndFraudCustomer                                   0.151262   
+gIndFirstFraud                                      0.151262   
+gRandomNumber                                      -0.114660   
+gSelectedObservation                                     NaN   
+
+                                   currentExpDateDtType  \
+accountNumber                                 -0.007550   
+customerId                                    -0.007550   
+creditLimit                                    0.006756   
+availableMoney                                -0.000258   
+transactionAmount                             -0.002803   
+cardCVV                                        0.003325   
+enteredCVV                                     0.004643   
+cardLast4Digits                               -0.017976   
+currentBalance                                 0.022211   
+cardPresent                                   -0.004243   
+expirationDateKeyInMatch                       0.001299   
+isFraud                                        0.023326   
+transactionDateTimeDtType                      0.024207   
+currentExpDateDtType                           1.000000   
+accountOpenDateDtType                          0.025903   
+dateOfLastAddressChangeDtType                  0.038942   
+gTransactionDateTime                           0.024207   
+gChangeInTransactionAmount                    -0.023883   
+gChangeInTransactionTime                       0.029738   
+gChangeInTransactionTimeMonths                 0.029738   
+gChangeInTransactionTimeDays                   0.029738   
+gChangeInTransactionTimeMinutes                0.029738   
+gDateOfLastAddressChange                       0.038942   
+gAccountOpenDate                               0.025903   
+gNumDaysSinceLastAddressChange                -0.028906   
+gIndLastAddressChangeWithin30Days              0.014531   
+gNumMonthsOpen                                -0.022281   
+gMerchantCategoryCodeRiskTable                 0.006431   
+gIndFraudCustomer                              0.023326   
+gIndFirstFraud                                 0.023326   
+gRandomNumber                                 -0.017069   
+gSelectedObservation                                NaN   
+
+                                   accountOpenDateDtType  \
+accountNumber                                   0.005159   
+customerId                                      0.005159   
+creditLimit                                    -0.004509   
+availableMoney                                 -0.011822   
+transactionAmount                              -0.005517   
+cardCVV                                        -0.007113   
+enteredCVV                                     -0.005454   
+cardLast4Digits                                -0.005186   
+currentBalance                                  0.021323   
+cardPresent                                     0.008850   
+expirationDateKeyInMatch                       -0.001929   
+isFraud                                        -0.008964   
+transactionDateTimeDtType                       0.012451   
+currentExpDateDtType                            0.025903   
+accountOpenDateDtType                           1.000000   
+dateOfLastAddressChangeDtType                   0.818720   
+gTransactionDateTime                            0.012451   
+gChangeInTransactionAmount                      0.013336   
+gChangeInTransactionTime                        0.003497   
+gChangeInTransactionTimeMonths                  0.003497   
+gChangeInTransactionTimeDays                    0.003497   
+gChangeInTransactionTimeMinutes                 0.003497   
+gDateOfLastAddressChange                        0.818720   
+gAccountOpenDate                                1.000000   
+gNumDaysSinceLastAddressChange                 -0.001057   
+gIndLastAddressChangeWithin30Days              -0.002209   
+gNumMonthsOpen                                 -0.990037   
+gMerchantCategoryCodeRiskTable                  0.002896   
+gIndFraudCustomer                              -0.008964   
+gIndFirstFraud                                 -0.008964   
+gRandomNumber                                   0.011865   
+gSelectedObservation                                 NaN   
+
+                                   dateOfLastAddressChangeDtType  \
+accountNumber                                           0.006894   
+customerId                                              0.006894   
+creditLimit                                            -0.004422   
+availableMoney                                         -0.051976   
+transactionAmount                                       0.065613   
+cardCVV                                                -0.004728   
+enteredCVV                                             -0.002324   
+cardLast4Digits                                        -0.021488   
+currentBalance                                          0.142606   
+cardPresent                                            -0.013577   
+expirationDateKeyInMatch                                0.005338   
+isFraud                                                 0.153292   
+transactionDateTimeDtType                               0.158020   
+currentExpDateDtType                                    0.038942   
+accountOpenDateDtType                                   0.818720   
+dateOfLastAddressChangeDtType                           1.000000   
+gTransactionDateTime                                    0.158020   
+gChangeInTransactionAmount                             -0.033799   
+gChangeInTransactionTime                                0.144607   
+gChangeInTransactionTimeMonths                          0.144607   
+gChangeInTransactionTimeDays                            0.144607   
+gChangeInTransactionTimeMinutes                         0.144607   
+gDateOfLastAddressChange                                1.000000   
+gAccountOpenDate                                        0.818720   
+gNumDaysSinceLastAddressChange                         -0.423003   
+gIndLastAddressChangeWithin30Days                       0.204306   
+gNumMonthsOpen                                         -0.789745   
+gMerchantCategoryCodeRiskTable                         -0.077298   
+gIndFraudCustomer                                       0.153292   
+gIndFirstFraud                                          0.153292   
+gRandomNumber                                          -0.098599   
+gSelectedObservation                                         NaN   
+
+                                   gTransactionDateTime  \
+accountNumber                                  0.004356   
+customerId                                     0.004356   
+creditLimit                                    0.028291   
+availableMoney                                -0.047235   
+transactionAmount                             -0.004064   
+cardCVV                                       -0.010083   
+enteredCVV                                    -0.008943   
+cardLast4Digits                                0.000807   
+currentBalance                                 0.232103   
+cardPresent                                   -0.050271   
+expirationDateKeyInMatch                       0.000603   
+isFraud                                        0.151262   
+transactionDateTimeDtType                      1.000000   
+currentExpDateDtType                           0.024207   
+accountOpenDateDtType                          0.012451   
+dateOfLastAddressChangeDtType                  0.158020   
+gTransactionDateTime                           1.000000   
+gChangeInTransactionAmount                    -0.080797   
+gChangeInTransactionTime                       0.658749   
+gChangeInTransactionTimeMonths                 0.658749   
+gChangeInTransactionTimeDays                   0.658749   
+gChangeInTransactionTimeMinutes                0.658749   
+gDateOfLastAddressChange                       0.158020   
+gAccountOpenDate                               0.012451   
+gNumDaysSinceLastAddressChange                -0.262459   
+gIndLastAddressChangeWithin30Days              0.121631   
+gNumMonthsOpen                                 0.128473   
+gMerchantCategoryCodeRiskTable                 0.123144   
+gIndFraudCustomer                              0.151262   
+gIndFirstFraud                                 0.151262   
+gRandomNumber                                 -0.114660   
+gSelectedObservation                                NaN   
+
+                                   gChangeInTransactionAmount  \
+accountNumber                                        0.001004   
+customerId                                           0.001004   
+creditLimit                                         -0.011890   
+availableMoney                                       0.019969   
+transactionAmount                                    0.570011   
+cardCVV                                              0.001235   
+enteredCVV                                          -0.001189   
+cardLast4Digits                                     -0.008119   
+currentBalance                                      -0.096496   
+cardPresent                                         -0.023659   
+expirationDateKeyInMatch                            -0.008356   
+isFraud                                              0.018030   
+transactionDateTimeDtType                           -0.080797   
+currentExpDateDtType                                -0.023883   
+accountOpenDateDtType                                0.013336   
+dateOfLastAddressChangeDtType                       -0.033799   
+gTransactionDateTime                                -0.080797   
+gChangeInTransactionAmount                           1.000000   
+gChangeInTransactionTime                            -0.048415   
+gChangeInTransactionTimeMonths                      -0.048415   
+gChangeInTransactionTimeDays                        -0.048415   
+gChangeInTransactionTimeMinutes                     -0.048415   
+gDateOfLastAddressChange                            -0.033799   
+gAccountOpenDate                                     0.013336   
+gNumDaysSinceLastAddressChange                       0.080177   
+gIndLastAddressChangeWithin30Days                   -0.046884   
+gNumMonthsOpen                                      -0.024538   
+gMerchantCategoryCodeRiskTable                      -0.176209   
+gIndFraudCustomer                                    0.018030   
+gIndFirstFraud                                       0.018030   
+gRandomNumber                                       -0.031496   
+gSelectedObservation                                      NaN   
+
+                                   gChangeInTransactionTime  \
+accountNumber                                      0.000108   
+customerId                                         0.000108   
+creditLimit                                        0.018558   
+availableMoney                                    -0.050175   
+transactionAmount                                  0.082578   
+cardCVV                                           -0.000813   
+enteredCVV                                        -0.000325   
+cardLast4Digits                                    0.001326   
+currentBalance                                     0.207031   
+cardPresent                                       -0.054921   
+expirationDateKeyInMatch                          -0.007889   
+isFraud                                            0.197867   
+transactionDateTimeDtType                          0.658749   
+currentExpDateDtType                               0.029738   
+accountOpenDateDtType                              0.003497   
+dateOfLastAddressChangeDtType                      0.144607   
+gTransactionDateTime                               0.658749   
+gChangeInTransactionAmount                        -0.048415   
+gChangeInTransactionTime                           1.000000   
+gChangeInTransactionTimeMonths                     1.000000   
+gChangeInTransactionTimeDays                       1.000000   
+gChangeInTransactionTimeMinutes                    1.000000   
+gDateOfLastAddressChange                           0.144607   
+gAccountOpenDate                                   0.003497   
+gNumDaysSinceLastAddressChange                    -0.241216   
+gIndLastAddressChangeWithin30Days                  0.112239   
+gNumMonthsOpen                                     0.088846   
+gMerchantCategoryCodeRiskTable                    -0.046252   
+gIndFraudCustomer                                  0.197867   
+gIndFirstFraud                                     0.197867   
+gRandomNumber                                     -0.138367   
+gSelectedObservation                                    NaN   
+
+                                   gChangeInTransactionTimeMonths  \
+accountNumber                                            0.000108   
+customerId                                               0.000108   
+creditLimit                                              0.018558   
+availableMoney                                          -0.050175   
+transactionAmount                                        0.082578   
+cardCVV                                                 -0.000813   
+enteredCVV                                              -0.000325   
+cardLast4Digits                                          0.001326   
+currentBalance                                           0.207031   
+cardPresent                                             -0.054921   
+expirationDateKeyInMatch                                -0.007889   
+isFraud                                                  0.197867   
+transactionDateTimeDtType                                0.658749   
+currentExpDateDtType                                     0.029738   
+accountOpenDateDtType                                    0.003497   
+dateOfLastAddressChangeDtType                            0.144607   
+gTransactionDateTime                                     0.658749   
+gChangeInTransactionAmount                              -0.048415   
+gChangeInTransactionTime                                 1.000000   
+gChangeInTransactionTimeMonths                           1.000000   
+gChangeInTransactionTimeDays                             1.000000   
+gChangeInTransactionTimeMinutes                          1.000000   
+gDateOfLastAddressChange                                 0.144607   
+gAccountOpenDate                                         0.003497   
+gNumDaysSinceLastAddressChange                          -0.241216   
+gIndLastAddressChangeWithin30Days                        0.112239   
+gNumMonthsOpen                                           0.088846   
+gMerchantCategoryCodeRiskTable                          -0.046252   
+gIndFraudCustomer                                        0.197867   
+gIndFirstFraud                                           0.197867   
+gRandomNumber                                           -0.138367   
+gSelectedObservation                                          NaN   
+
+                                   gChangeInTransactionTimeDays  \
+accountNumber                                          0.000108   
+customerId                                             0.000108   
+creditLimit                                            0.018558   
+availableMoney                                        -0.050175   
+transactionAmount                                      0.082578   
+cardCVV                                               -0.000813   
+enteredCVV                                            -0.000325   
+cardLast4Digits                                        0.001326   
+currentBalance                                         0.207031   
+cardPresent                                           -0.054921   
+expirationDateKeyInMatch                              -0.007889   
+isFraud                                                0.197867   
+transactionDateTimeDtType                              0.658749   
+currentExpDateDtType                                   0.029738   
+accountOpenDateDtType                                  0.003497   
+dateOfLastAddressChangeDtType                          0.144607   
+gTransactionDateTime                                   0.658749   
+gChangeInTransactionAmount                            -0.048415   
+gChangeInTransactionTime                               1.000000   
+gChangeInTransactionTimeMonths                         1.000000   
+gChangeInTransactionTimeDays                           1.000000   
+gChangeInTransactionTimeMinutes                        1.000000   
+gDateOfLastAddressChange                               0.144607   
+gAccountOpenDate                                       0.003497   
+gNumDaysSinceLastAddressChange                        -0.241216   
+gIndLastAddressChangeWithin30Days                      0.112239   
+gNumMonthsOpen                                         0.088846   
+gMerchantCategoryCodeRiskTable                        -0.046252   
+gIndFraudCustomer                                      0.197867   
+gIndFirstFraud                                         0.197867   
+gRandomNumber                                         -0.138367   
+gSelectedObservation                                        NaN   
+
+                                   gChangeInTransactionTimeMinutes  \
+accountNumber                                             0.000108   
+customerId                                                0.000108   
+creditLimit                                               0.018558   
+availableMoney                                           -0.050175   
+transactionAmount                                         0.082578   
+cardCVV                                                  -0.000813   
+enteredCVV                                               -0.000325   
+cardLast4Digits                                           0.001326   
+currentBalance                                            0.207031   
+cardPresent                                              -0.054921   
+expirationDateKeyInMatch                                 -0.007889   
+isFraud                                                   0.197867   
+transactionDateTimeDtType                                 0.658749   
+currentExpDateDtType                                      0.029738   
+accountOpenDateDtType                                     0.003497   
+dateOfLastAddressChangeDtType                             0.144607   
+gTransactionDateTime                                      0.658749   
+gChangeInTransactionAmount                               -0.048415   
+gChangeInTransactionTime                                  1.000000   
+gChangeInTransactionTimeMonths                            1.000000   
+gChangeInTransactionTimeDays                              1.000000   
+gChangeInTransactionTimeMinutes                           1.000000   
+gDateOfLastAddressChange                                  0.144607   
+gAccountOpenDate                                          0.003497   
+gNumDaysSinceLastAddressChange                           -0.241216   
+gIndLastAddressChangeWithin30Days                         0.112239   
+gNumMonthsOpen                                            0.088846   
+gMerchantCategoryCodeRiskTable                           -0.046252   
+gIndFraudCustomer                                         0.197867   
+gIndFirstFraud                                            0.197867   
+gRandomNumber                                            -0.138367   
+gSelectedObservation                                           NaN   
+
+                                   gDateOfLastAddressChange  gAccountOpenDate  \
+accountNumber                                      0.006894          0.005159   
+customerId                                         0.006894          0.005159   
+creditLimit                                       -0.004422         -0.004509   
+availableMoney                                    -0.051976         -0.011822   
+transactionAmount                                  0.065613         -0.005517   
+cardCVV                                           -0.004728         -0.007113   
+enteredCVV                                        -0.002324         -0.005454   
+cardLast4Digits                                   -0.021488         -0.005186   
+currentBalance                                     0.142606          0.021323   
+cardPresent                                       -0.013577          0.008850   
+expirationDateKeyInMatch                           0.005338         -0.001929   
+isFraud                                            0.153292         -0.008964   
+transactionDateTimeDtType                          0.158020          0.012451   
+currentExpDateDtType                               0.038942          0.025903   
+accountOpenDateDtType                              0.818720          1.000000   
+dateOfLastAddressChangeDtType                      1.000000          0.818720   
+gTransactionDateTime                               0.158020          0.012451   
+gChangeInTransactionAmount                        -0.033799          0.013336   
+gChangeInTransactionTime                           0.144607          0.003497   
+gChangeInTransactionTimeMonths                     0.144607          0.003497   
+gChangeInTransactionTimeDays                       0.144607          0.003497   
+gChangeInTransactionTimeMinutes                    0.144607          0.003497   
+gDateOfLastAddressChange                           1.000000          0.818720   
+gAccountOpenDate                                   0.818720          1.000000   
+gNumDaysSinceLastAddressChange                    -0.423003         -0.001057   
+gIndLastAddressChangeWithin30Days                  0.204306         -0.002209   
+gNumMonthsOpen                                    -0.789745         -0.990037   
+gMerchantCategoryCodeRiskTable                    -0.077298          0.002896   
+gIndFraudCustomer                                  0.153292         -0.008964   
+gIndFirstFraud                                     0.153292         -0.008964   
+gRandomNumber                                     -0.098599          0.011865   
+gSelectedObservation                                    NaN               NaN   
+
+                                   gNumDaysSinceLastAddressChange  \
+accountNumber                                           -0.001599   
+customerId                                              -0.001599   
+creditLimit                                             -0.014870   
+availableMoney                                           0.075300   
+transactionAmount                                       -0.153990   
+cardCVV                                                  0.007302   
+enteredCVV                                               0.004590   
+cardLast4Digits                                          0.022122   
+currentBalance                                          -0.274103   
+cardPresent                                              0.038102   
+expirationDateKeyInMatch                                -0.005413   
+isFraud                                                 -0.308818   
+transactionDateTimeDtType                               -0.262459   
+currentExpDateDtType                                    -0.028906   
+accountOpenDateDtType                                   -0.001057   
+dateOfLastAddressChangeDtType                           -0.423003   
+gTransactionDateTime                                    -0.262459   
+gChangeInTransactionAmount                               0.080177   
+gChangeInTransactionTime                                -0.241216   
+gChangeInTransactionTimeMonths                          -0.241216   
+gChangeInTransactionTimeDays                            -0.241216   
+gChangeInTransactionTimeMinutes                         -0.241216   
+gDateOfLastAddressChange                                -0.423003   
+gAccountOpenDate                                        -0.001057   
+gNumDaysSinceLastAddressChange                           1.000000   
+gIndLastAddressChangeWithin30Days                       -0.544304   
+gNumMonthsOpen                                          -0.035911   
+gMerchantCategoryCodeRiskTable                           0.152817   
+gIndFraudCustomer                                       -0.308818   
+gIndFirstFraud                                          -0.308818   
+gRandomNumber                                            0.206546   
+gSelectedObservation                                          NaN   
+
+                                   gIndLastAddressChangeWithin30Days  \
+accountNumber                                              -0.006032   
+customerId                                                 -0.006032   
+creditLimit                                                -0.000038   
+availableMoney                                             -0.041955   
+transactionAmount                                           0.082095   
+cardCVV                                                     0.008609   
+enteredCVV                                                  0.008723   
+cardLast4Digits                                            -0.004334   
+currentBalance                                              0.126318   
+cardPresent                                                -0.020524   
+expirationDateKeyInMatch                                   -0.005829   
+isFraud                                                     0.158535   
+transactionDateTimeDtType                                   0.121631   
+currentExpDateDtType                                        0.014531   
+accountOpenDateDtType                                      -0.002209   
+dateOfLastAddressChangeDtType                               0.204306   
+gTransactionDateTime                                        0.121631   
+gChangeInTransactionAmount                                 -0.046884   
+gChangeInTransactionTime                                    0.112239   
+gChangeInTransactionTimeMonths                              0.112239   
+gChangeInTransactionTimeDays                                0.112239   
+gChangeInTransactionTimeMinutes                             0.112239   
+gDateOfLastAddressChange                                    0.204306   
+gAccountOpenDate                                           -0.002209   
+gNumDaysSinceLastAddressChange                             -0.544304   
+gIndLastAddressChangeWithin30Days                           1.000000   
+gNumMonthsOpen                                              0.019319   
+gMerchantCategoryCodeRiskTable                             -0.074367   
+gIndFraudCustomer                                           0.158535   
+gIndFirstFraud                                              0.158535   
+gRandomNumber                                              -0.106296   
+gSelectedObservation                                             NaN   
+
+                                   gNumMonthsOpen  \
+accountNumber                           -0.004504   
+customerId                              -0.004504   
+creditLimit                              0.008456   
+availableMoney                           0.005074   
+transactionAmount                        0.004900   
+cardCVV                                  0.005634   
+enteredCVV                               0.004149   
+cardLast4Digits                          0.005257   
+currentBalance                           0.011538   
+cardPresent                             -0.015856   
+expirationDateKeyInMatch                 0.001998   
+isFraud                                  0.030191   
+transactionDateTimeDtType                0.128473   
+currentExpDateDtType                    -0.022281   
+accountOpenDateDtType                   -0.990037   
+dateOfLastAddressChangeDtType           -0.789745   
+gTransactionDateTime                     0.128473   
+gChangeInTransactionAmount              -0.024538   
+gChangeInTransactionTime                 0.088846   
+gChangeInTransactionTimeMonths           0.088846   
+gChangeInTransactionTimeDays             0.088846   
+gChangeInTransactionTimeMinutes          0.088846   
+gDateOfLastAddressChange                -0.789745   
+gAccountOpenDate                        -0.990037   
+gNumDaysSinceLastAddressChange          -0.035911   
+gIndLastAddressChangeWithin30Days        0.019319   
+gNumMonthsOpen                           1.000000   
+gMerchantCategoryCodeRiskTable           0.014467   
+gIndFraudCustomer                        0.030191   
+gIndFirstFraud                           0.030191   
+gRandomNumber                           -0.027914   
+gSelectedObservation                          NaN   
+
+                                   gMerchantCategoryCodeRiskTable  \
+accountNumber                                           -0.018165   
+customerId                                              -0.018165   
+creditLimit                                             -0.001797   
+availableMoney                                           0.056590   
+transactionAmount                                       -0.404560   
+cardCVV                                                 -0.005084   
+enteredCVV                                              -0.006551   
+cardLast4Digits                                         -0.000623   
+currentBalance                                          -0.175927   
+cardPresent                                              0.107516   
+expirationDateKeyInMatch                                 0.004970   
+isFraud                                                 -0.470296   
+transactionDateTimeDtType                                0.123144   
+currentExpDateDtType                                     0.006431   
+accountOpenDateDtType                                    0.002896   
+dateOfLastAddressChangeDtType                           -0.077298   
+gTransactionDateTime                                     0.123144   
+gChangeInTransactionAmount                              -0.176209   
+gChangeInTransactionTime                                -0.046252   
+gChangeInTransactionTimeMonths                          -0.046252   
+gChangeInTransactionTimeDays                            -0.046252   
+gChangeInTransactionTimeMinutes                         -0.046252   
+gDateOfLastAddressChange                                -0.077298   
+gAccountOpenDate                                         0.002896   
+gNumDaysSinceLastAddressChange                           0.152817   
+gIndLastAddressChangeWithin30Days                       -0.074367   
+gNumMonthsOpen                                           0.014467   
+gMerchantCategoryCodeRiskTable                           1.000000   
+gIndFraudCustomer                                       -0.470296   
+gIndFirstFraud                                          -0.470296   
+gRandomNumber                                            0.349664   
+gSelectedObservation                                          NaN   
+
+                                   gIndFraudCustomer  gIndFirstFraud  \
+accountNumber                               0.001395        0.001395   
+customerId                                  0.001395        0.001395   
+creditLimit                                 0.022822        0.022822   
+availableMoney                             -0.071437       -0.071437   
+transactionAmount                           0.392463        0.392463   
+cardCVV                                    -0.003031       -0.003031   
+enteredCVV                                 -0.003703       -0.003703   
+cardLast4Digits                             0.011148        0.011148   
+currentBalance                              0.287690        0.287690   
+cardPresent                                -0.161170       -0.161170   
+expirationDateKeyInMatch                   -0.000756       -0.000756   
+isFraud                                     1.000000        1.000000   
+transactionDateTimeDtType                   0.151262        0.151262   
+currentExpDateDtType                        0.023326        0.023326   
+accountOpenDateDtType                      -0.008964       -0.008964   
+dateOfLastAddressChangeDtType               0.153292        0.153292   
+gTransactionDateTime                        0.151262        0.151262   
+gChangeInTransactionAmount                  0.018030        0.018030   
+gChangeInTransactionTime                    0.197867        0.197867   
+gChangeInTransactionTimeMonths              0.197867        0.197867   
+gChangeInTransactionTimeDays                0.197867        0.197867   
+gChangeInTransactionTimeMinutes             0.197867        0.197867   
+gDateOfLastAddressChange                    0.153292        0.153292   
+gAccountOpenDate                           -0.008964       -0.008964   
+gNumDaysSinceLastAddressChange             -0.308818       -0.308818   
+gIndLastAddressChangeWithin30Days           0.158535        0.158535   
+gNumMonthsOpen                              0.030191        0.030191   
+gMerchantCategoryCodeRiskTable             -0.470296       -0.470296   
+gIndFraudCustomer                           1.000000        1.000000   
+gIndFirstFraud                              1.000000        1.000000   
+gRandomNumber                              -0.737522       -0.737522   
+gSelectedObservation                             NaN             NaN   
+
+                                   gRandomNumber  gSelectedObservation  
+accountNumber                          -0.013722                   NaN  
+customerId                             -0.013722                   NaN  
+creditLimit                            -0.018825                   NaN  
+availableMoney                          0.046893                   NaN  
+transactionAmount                      -0.269742                   NaN  
+cardCVV                                 0.015218                   NaN  
+enteredCVV                              0.016414                   NaN  
+cardLast4Digits                        -0.015685                   NaN  
+currentBalance                         -0.201042                   NaN  
+cardPresent                             0.134896                   NaN  
+expirationDateKeyInMatch                0.018163                   NaN  
+isFraud                                -0.737522                   NaN  
+transactionDateTimeDtType              -0.114660                   NaN  
+currentExpDateDtType                   -0.017069                   NaN  
+accountOpenDateDtType                   0.011865                   NaN  
+dateOfLastAddressChangeDtType          -0.098599                   NaN  
+gTransactionDateTime                   -0.114660                   NaN  
+gChangeInTransactionAmount             -0.031496                   NaN  
+gChangeInTransactionTime               -0.138367                   NaN  
+gChangeInTransactionTimeMonths         -0.138367                   NaN  
+gChangeInTransactionTimeDays           -0.138367                   NaN  
+gChangeInTransactionTimeMinutes        -0.138367                   NaN  
+gDateOfLastAddressChange               -0.098599                   NaN  
+gAccountOpenDate                        0.011865                   NaN  
+gNumDaysSinceLastAddressChange          0.206546                   NaN  
+gIndLastAddressChangeWithin30Days      -0.106296                   NaN  
+gNumMonthsOpen                         -0.027914                   NaN  
+gMerchantCategoryCodeRiskTable          0.349664                   NaN  
+gIndFraudCustomer                      -0.737522                   NaN  
+gIndFirstFraud                         -0.737522                   NaN  
+gRandomNumber                           1.000000                   NaN  
+gSelectedObservation                         NaN                   NaN  
+---------accountNumber Crossed with Target--------
+isFraud        False  True 
+accountNumber              
+100088067          0      1
+100108752          1      0
+100328049          1      0
+100663626          1      0
+100737756          0      1
+...              ...    ...
+999086814          0      1
+999257059          0      1
+999258704          0      1
+999283629          1      0
+999389635          1      0
+
+[4998 rows x 2 columns]
+---------customerId Crossed with Target--------
+isFraud     False  True 
+customerId              
+100088067       0      1
+100108752       1      0
+100328049       1      0
+100663626       1      0
+100737756       0      1
+...           ...    ...
+999086814       0      1
+999257059       0      1
+999258704       0      1
+999283629       1      0
+999389635       1      0
+
+[4998 rows x 2 columns]
+---------creditLimit Crossed with Target--------
+isFraud      False  True 
+creditLimit              
+250            148    117
+500            150     83
+1000           144     96
+2500           312    187
+5000           600    431
+7500           421    328
+10000          292    192
+15000          471    302
+20000          268    210
+50000          134    112
+---------availableMoney Crossed with Target--------
+isFraud         False  True 
+availableMoney              
+-415.48             0      1
+-260.86             0      1
+-255.03             0      1
+-243.68             0      1
+-236.13             1      0
+...               ...    ...
+ 49982.72           1      0
+ 49984.93           1      0
+ 49987.80           0      1
+ 49992.10           1      0
+ 50000.00          29      9
+
+[4103 rows x 2 columns]
+---------transactionDateTime Crossed with Target--------
+isFraud              False  True 
+transactionDateTime              
+2016-01-01T05:02:29      1      0
+2016-01-01T06:06:44      1      0
+2016-01-01T09:59:29      1      0
+2016-01-01T11:07:05      1      0
+2016-01-01T13:56:46      1      0
+...                    ...    ...
+2016-12-30T21:44:21      0      1
+2016-12-30T22:31:53      0      1
+2016-12-30T22:49:02      0      1
+2016-12-30T23:15:04      0      1
+2016-12-30T23:39:31      1      0
+
+[4997 rows x 2 columns]
+---------transactionAmount Crossed with Target--------
+isFraud            False  True 
+transactionAmount              
+0.00                  76     10
+0.01                   1      0
+0.32                   1      0
+0.48                   1      0
+0.49                   1      0
+...                  ...    ...
+1158.21                0      1
+1206.19                0      1
+1226.82                0      1
+1377.42                0      1
+1608.35                0      1
+
+[4477 rows x 2 columns]
+---------merchantName Crossed with Target--------
+isFraud                    False  True 
+merchantName                           
+1st BBQ                        3      5
+1st Deli                       2      2
+1st Pub                        4      1
+1st Restaurant                 5      3
+1st Sandwitch Bar #119707      2      1
+...                          ...    ...
+staples.com                   38     68
+target.com                    35     74
+walmart.com                   27     79
+westelm.com                    2      2
+williamssonoma.com             2      0
+
+[1039 rows x 2 columns]
+---------acqCountry Crossed with Target--------
+isFraud     False  True 
+acqCountry              
+US           2940   2058
+---------merchantCountryCode Crossed with Target--------
+isFraud              False  True 
+merchantCountryCode              
+US                    2940   2058
+---------posEntryMode Crossed with Target--------
+isFraud       False  True 
+posEntryMode              
+                 18     62
+02              730    558
+05             1168    301
+09              901   1040
+80               52     37
+90               71     60
+---------posConditionCode Crossed with Target--------
+isFraud           False  True 
+posConditionCode              
+1                    42     18
+8                     9      4
+99                    1      0
+                      2      7
+01                 2295   1701
+08                  565    287
+99                   26     41
+---------merchantCategoryCode Crossed with Target--------
+isFraud               False  True 
+merchantCategoryCode              
+airline                  30     61
+auto                     29     51
+cable/phone              25      0
+entertainment           247     98
+fastfood                385    200
+food                    214    223
+food_delivery            50      0
+fuel                    373      0
+furniture                27     25
+gym                      39      0
+health                   52     24
+hotels                   81     49
+mobileapps              337      0
+online_gifts             96    161
+online_retail           435    851
+online_subscriptions    240      0
+personal care            84     20
+rideshare               133    237
+subscriptions            63     58
+---------currentExpDate Crossed with Target--------
+isFraud         False  True 
+currentExpDate              
+01/2020            18      8
+01/2021            14     20
+01/2022            14      9
+01/2023            19      9
+01/2024            20     14
+...               ...    ...
+12/2028            12     11
+12/2029            20     17
+12/2030            18     13
+12/2031            23      9
+12/2032            14     21
+
+[165 rows x 2 columns]
+---------accountOpenDate Crossed with Target--------
+isFraud          False  True 
+accountOpenDate              
+1989-08-22           0      1
+1997-11-20           1      0
+1999-04-08           0      1
+1999-12-24           1      0
+2001-01-11           1      0
+...                ...    ...
+2015-12-27           4      0
+2015-12-28           1      4
+2015-12-29           2      3
+2015-12-30          10      2
+2015-12-31           1      2
+
+[1820 rows x 2 columns]
+---------dateOfLastAddressChange Crossed with Target--------
+isFraud                  False  True 
+dateOfLastAddressChange              
+1989-08-22                   0      1
+1997-11-20                   1      0
+1999-04-08                   0      1
+1999-12-24                   1      0
+2001-01-11                   1      0
+...                        ...    ...
+2016-12-23                   0      1
+2016-12-24                   0      3
+2016-12-25                   0      2
+2016-12-26                   1      1
+2016-12-27                   0      1
+
+[2009 rows x 2 columns]
+---------cardCVV Crossed with Target--------
+isFraud  False  True 
+cardCVV              
+100          4      2
+101          2      1
+102          4      1
+103          2      1
+104          2      3
+...        ...    ...
+994          5      0
+995          2      1
+996          3      3
+997          4      2
+998          6      3
+
+[898 rows x 2 columns]
+---------enteredCVV Crossed with Target--------
+isFraud     False  True 
+enteredCVV              
+0               0      1
+100             4      2
+101             2      1
+102             4      1
+103             2      1
+...           ...    ...
+994             5      0
+995             2      2
+996             3      3
+997             4      1
+998             6      3
+
+[899 rows x 2 columns]
+---------cardLast4Digits Crossed with Target--------
+isFraud          False  True 
+cardLast4Digits              
+0                   32     12
+1                    1      0
+2                    0      2
+3                    0      1
+4                    1      0
+...                ...    ...
+9993                 1      0
+9994                 1      0
+9996                 0      1
+9997                 1      0
+9998                 1      0
+
+[3950 rows x 2 columns]
+---------transactionType Crossed with Target--------
+isFraud               False  True 
+transactionType                   
+                          1      0
+ADDRESS_VERIFICATION     60     10
+PURCHASE               2879   2048
+---------currentBalance Crossed with Target--------
+isFraud         False  True 
+currentBalance              
+0.00              723    166
+1.11                1      0
+1.31                1      0
+1.65                1      0
+1.74                1      0
+...               ...    ...
+38768.57            0      1
+41137.89            0      1
+41386.20            0      1
+43289.78            0      1
+45499.47            0      1
+
+[4076 rows x 2 columns]
+---------cardPresent Crossed with Target--------
+isFraud      False  True 
+cardPresent              
+False         1582   1437
+True          1358    621
+---------expirationDateKeyInMatch Crossed with Target--------
+isFraud                   False  True 
+expirationDateKeyInMatch              
+False                      2937   2056
+True                          3      2
+---------isFraud Crossed with Target--------
+isFraud  False  True 
+isFraud              
+False     2940      0
+True         0   2058
+---------transactionDateTimeDtType Crossed with Target--------
+isFraud                    False  True 
+transactionDateTimeDtType              
+1451624549000                  1      0
+1451628404000                  1      0
+1451642369000                  1      0
+1451646425000                  1      0
+1451656606000                  1      0
+...                          ...    ...
+1483134261000                  0      1
+1483137113000                  0      1
+1483138142000                  0      1
+1483139704000                  0      1
+1483141171000                  1      0
+
+[4997 rows x 2 columns]
+---------currentExpDateDtType Crossed with Target--------
+isFraud               False  True 
+currentExpDateDtType              
+1575158400000            17     10
+1577836800000            18      8
+1580515200000            15     12
+1583020800000            17     13
+1585699200000            22     16
+...                     ...    ...
+1995926400000            15     17
+1998518400000            22     11
+2001196800000            13     11
+2003788800000            16     13
+2006467200000             4      4
+
+[165 rows x 2 columns]
+---------accountOpenDateDtType Crossed with Target--------
+isFraud                False  True 
+accountOpenDateDtType              
+619747200000               0      1
+879984000000               1      0
+923529600000               0      1
+945993600000               1      0
+979171200000               1      0
+...                      ...    ...
+1451174400000              4      0
+1451260800000              1      4
+1451347200000              2      3
+1451433600000             10      2
+1451520000000              1      2
+
+[1820 rows x 2 columns]
+---------dateOfLastAddressChangeDtType Crossed with Target--------
+isFraud                        False  True 
+dateOfLastAddressChangeDtType              
+619747200000                       0      1
+879984000000                       1      0
+923529600000                       0      1
+945993600000                       1      0
+979171200000                       1      0
+...                              ...    ...
+1482451200000                      0      1
+1482537600000                      0      3
+1482624000000                      0      2
+1482710400000                      1      1
+1482796800000                      0      1
+
+[2009 rows x 2 columns]
+---------gTransactionKey Crossed with Target--------
+isFraud                                False  True 
+gTransactionKey                                    
+1000880671000880672016-12-26T19:14:46      0      1
+1001087521001087522016-09-10T20:11:07      1      0
+1003280491003280492016-03-12T05:51:22      1      0
+1006636261006636262016-04-29T07:00:55      1      0
+1007377561007377562016-11-05T17:50:30      0      1
+...                                      ...    ...
+9990868149990868142016-12-07T19:31:07      0      1
+9992570599992570592016-05-20T07:19:35      0      1
+9992587049992587042016-06-26T09:22:02      0      1
+9992836299992836292016-01-19T21:21:34      1      0
+9993896359993896352016-07-22T01:28:10      1      0
+
+[4998 rows x 2 columns]
+---------gIndCustIdEqAcctNum Crossed with Target--------
+isFraud              False  True 
+gIndCustIdEqAcctNum              
+Matched               2940   2058
+---------gIndCardCvvEqEnteredCVV Crossed with Target--------
+isFraud                  False  True 
+gIndCardCvvEqEnteredCVV              
+Matched                   2909   2010
+Not Matched                 31     48
+---------gIndDtAddrChangeEqAcctOpenDt Crossed with Target--------
+isFraud                       False  True 
+gIndDtAddrChangeEqAcctOpenDt              
+Matched                        2735   1393
+Not Matched                     205    665
+---------gTransactionDateTime Crossed with Target--------
+isFraud               False  True 
+gTransactionDateTime              
+1451624549000             1      0
+1451628404000             1      0
+1451642369000             1      0
+1451646425000             1      0
+1451656606000             1      0
+...                     ...    ...
+1483134261000             0      1
+1483137113000             0      1
+1483138142000             0      1
+1483139704000             0      1
+1483141171000             1      0
+
+[4997 rows x 2 columns]
+---------gIndChangeInCustomerId Crossed with Target--------
+isFraud                 False  True 
+gIndChangeInCustomerId              
+False                    2730   2054
+True                      210      4
+---------gIndDuplicateTransaction Crossed with Target--------
+isFraud                   False  True 
+gIndDuplicateTransaction              
+False                      2940   2058
+---------gIndMerchNameMatch Crossed with Target--------
+isFraud             False  True 
+gIndMerchNameMatch              
+False                1981   1932
+True                  959    126
+---------gChangeInTransactionAmount Crossed with Target--------
+isFraud                     False  True 
+gChangeInTransactionAmount              
+0.00                          721     34
+0.01                            3      8
+0.02                            3     14
+0.03                            2     10
+0.04                            6      7
+...                           ...    ...
+602.78                          0      1
+612.22                          1      0
+612.67                          0      1
+814.07                          1      0
+1108.29                         0      1
+
+[2085 rows x 2 columns]
+---------gChangeInTransactionTime Crossed with Target--------
+isFraud                   False  True 
+gChangeInTransactionTime              
+-3.111213e+10                 1      0
+-2.941840e+10                 0      1
+-2.932048e+10                 0      1
+-2.931110e+10                 0      1
+-2.925186e+10                 1      0
+...                         ...    ...
+ 3.055868e+10                 0      1
+ 3.058378e+10                 1      0
+ 3.066116e+10                 0      1
+ 3.076872e+10                 1      0
+ 3.114181e+10                 0      1
+
+[4777 rows x 2 columns]
+---------gChangeInTransactionTimeMonths Crossed with Target--------
+isFraud                         False  True 
+gChangeInTransactionTimeMonths              
+-11.830850                          1      0
+-11.186785                          0      1
+-11.149549                          0      1
+-11.145981                          0      1
+-11.123453                          1      0
+...                               ...    ...
+ 11.620393                          0      1
+ 11.629935                          1      0
+ 11.659362                          0      1
+ 11.700262                          1      0
+ 11.842137                          0      1
+
+[4777 rows x 2 columns]
+---------gChangeInTransactionTimeDays Crossed with Target--------
+isFraud                       False  True 
+gChangeInTransactionTimeDays              
+-360.094109                       1      0
+-340.490775                       0      1
+-339.357442                       0      1
+-339.248843                       0      1
+-338.563137                       1      0
+...                             ...    ...
+ 353.688449                       0      1
+ 353.978877                       1      0
+ 354.874537                       0      1
+ 356.119398                       1      0
+ 360.437650                       0      1
+
+[4777 rows x 2 columns]
+---------gChangeInTransactionTimeMinutes Crossed with Target--------
+isFraud                          False  True 
+gChangeInTransactionTimeMinutes              
+-518535.516667                       1      0
+-490306.716667                       0      1
+-488674.716667                       0      1
+-488518.333333                       0      1
+-487530.916667                       1      0
+...                                ...    ...
+ 509311.366667                       0      1
+ 509729.583333                       1      0
+ 511019.333333                       0      1
+ 512811.933333                       1      0
+ 519030.216667                       0      1
+
+[4777 rows x 2 columns]
+---------gDateOfLastAddressChange Crossed with Target--------
+isFraud                   False  True 
+gDateOfLastAddressChange              
+619747200000                  0      1
+879984000000                  1      0
+923529600000                  0      1
+945993600000                  1      0
+979171200000                  1      0
+...                         ...    ...
+1482451200000                 0      1
+1482537600000                 0      3
+1482624000000                 0      2
+1482710400000                 1      1
+1482796800000                 0      1
+
+[2009 rows x 2 columns]
+---------gAccountOpenDate Crossed with Target--------
+isFraud           False  True 
+gAccountOpenDate              
+619747200000          0      1
+879984000000          1      0
+923529600000          0      1
+945993600000          1      0
+979171200000          1      0
+...                 ...    ...
+1451174400000         4      0
+1451260800000         1      4
+1451347200000         2      3
+1451433600000        10      2
+1451520000000         1      2
+
+[1820 rows x 2 columns]
+---------gNumDaysSinceLastAddressChange Crossed with Target--------
+isFraud                         False  True 
+gNumDaysSinceLastAddressChange              
+0.110833                            1      0
+0.656725                            0      1
+0.854051                            0      1
+0.965208                            1      0
+0.965822                            0      1
+...                               ...    ...
+776.662593                          1      0
+872.084884                          1      0
+978.259954                          0      1
+989.775104                          0      1
+1239.170440                         1      0
+
+[871 rows x 2 columns]
+---------gIndLastAddressChangeWithin30Days Crossed with Target--------
+isFraud                            False  True 
+gIndLastAddressChangeWithin30Days              
+0                                   2913   1921
+1                                     27    137
+---------gNumMonthsOpen Crossed with Target--------
+isFraud         False  True 
+gNumMonthsOpen              
+0.374051            1      0
+0.434191            0      1
+0.438118            0      1
+0.774141            1      0
+0.829227            1      0
+...               ...    ...
+186.005625          1      0
+201.742847          1      0
+212.344063          0      1
+228.450829          1      0
+324.940497          0      1
+
+[4998 rows x 2 columns]
+---------gMerchantCategoryCodeRiskTable Crossed with Target--------
+isFraud                         False  True 
+gMerchantCategoryCodeRiskTable              
+-0.807063                          30     61
+-0.464513                         133    237
+-0.445289                         435    851
+-0.438095                          96    161
+ 0.122768                          27     25
+ 0.163153                         214    223
+ 0.224554                          29     51
+ 0.277486                         247     98
+ 0.505350                         385    200
+ 0.517126                          63     58
+ 0.771717                          81     49
+ 1.209004                          52     24
+ 1.247409                          84     20
+ 3.567860                          39      0
+ 4.567079                          50      0
+ 5.179287                         240      0
+ 5.482703                         337      0
+ 5.949616                         373      0
+---------gExclusions Crossed with Target--------
+isFraud           False  True 
+gExclusions                   
+0 - Not excluded   2940   2058
+---------gDateFirstFraud Crossed with Target--------
+isFraud              False  True 
+gDateFirstFraud                  
+0                     2940      0
+2016-01-01T18:51:36      0      1
+2016-01-02T15:31:54      0      1
+2016-01-02T23:06:47      0      1
+2016-01-03T14:11:05      0      1
+...                    ...    ...
+2016-12-30T21:28:24      0      1
+2016-12-30T21:44:21      0      1
+2016-12-30T22:31:53      0      1
+2016-12-30T22:49:02      0      1
+2016-12-30T23:15:04      0      1
+
+[2059 rows x 2 columns]
+---------gIndFraudCustomer Crossed with Target--------
+isFraud            False  True 
+gIndFraudCustomer              
+0                   2940      0
+1                      0   2058
+---------gIndFirstFraud Crossed with Target--------
+isFraud         False  True 
+gIndFirstFraud              
+0                2940      0
+1                   0   2058
+---------gRandomNumber Crossed with Target--------
+isFraud        False  True 
+gRandomNumber              
+2                  0      1
+16                 0      1
+18                 0      1
+20                 0      2
+26                 0      1
+...              ...    ...
+9995              13      1
+9996              16      0
+9997               7      0
+9998              11      0
+9999               8      0
+
+[2799 rows x 2 columns]
+---------gSelectedObservation Crossed with Target--------
+isFraud               False  True 
+gSelectedObservation              
+1                      2940   2058

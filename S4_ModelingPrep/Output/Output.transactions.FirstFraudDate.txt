@@ -1,0 +1,135 @@
+--------Data Sorted---------
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4998 entries, 786354 to 68
+Data columns (total 52 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   accountNumber                      4998 non-null   int64  
+ 1   customerId                         4998 non-null   int64  
+ 2   creditLimit                        4998 non-null   int64  
+ 3   availableMoney                     4998 non-null   float64
+ 4   transactionDateTime                4998 non-null   object 
+ 5   transactionAmount                  4998 non-null   float64
+ 6   merchantName                       4998 non-null   object 
+ 7   acqCountry                         4998 non-null   object 
+ 8   merchantCountryCode                4998 non-null   object 
+ 9   posEntryMode                       4998 non-null   object 
+ 10  posConditionCode                   4998 non-null   object 
+ 11  merchantCategoryCode               4998 non-null   object 
+ 12  currentExpDate                     4998 non-null   object 
+ 13  accountOpenDate                    4998 non-null   object 
+ 14  dateOfLastAddressChange            4998 non-null   object 
+ 15  cardCVV                            4998 non-null   int64  
+ 16  enteredCVV                         4998 non-null   int64  
+ 17  cardLast4Digits                    4998 non-null   int64  
+ 18  transactionType                    4998 non-null   object 
+ 19  currentBalance                     4998 non-null   float64
+ 20  cardPresent                        4998 non-null   bool   
+ 21  expirationDateKeyInMatch           4998 non-null   bool   
+ 22  isFraud                            4998 non-null   bool   
+ 23  transactionDateTimeDtType          4998 non-null   int64  
+ 24  currentExpDateDtType               4998 non-null   int64  
+ 25  accountOpenDateDtType              4998 non-null   int64  
+ 26  dateOfLastAddressChangeDtType      4998 non-null   int64  
+ 27  gTransactionKey                    4998 non-null   object 
+ 28  gIndCustIdEqAcctNum                4998 non-null   object 
+ 29  gIndCardCvvEqEnteredCVV            4998 non-null   object 
+ 30  gIndDtAddrChangeEqAcctOpenDt       4998 non-null   object 
+ 31  gTransactionDateTime               4998 non-null   int64  
+ 32  gIndChangeInCustomerId             4998 non-null   object 
+ 33  gIndDuplicateTransaction           4998 non-null   object 
+ 34  gIndMerchNameMatch                 4998 non-null   object 
+ 35  gChangeInTransactionAmount         4784 non-null   float64
+ 36  gChangeInTransactionTime           4784 non-null   float64
+ 37  gChangeInTransactionTimeMonths     4784 non-null   float64
+ 38  gChangeInTransactionTimeDays       4784 non-null   float64
+ 39  gChangeInTransactionTimeMinutes    4784 non-null   float64
+ 40  gDateOfLastAddressChange           4998 non-null   int64  
+ 41  gAccountOpenDate                   4998 non-null   int64  
+ 42  gNumDaysSinceLastAddressChange     4998 non-null   float64
+ 43  gIndLastAddressChangeWithin30Days  4998 non-null   int64  
+ 44  gNumMonthsOpen                     4998 non-null   float64
+ 45  gMerchantCategoryCodeRiskTable     4973 non-null   float64
+ 46  gExclusions                        4998 non-null   object 
+ 47  gDateFirstFraud                    4998 non-null   object 
+ 48  gIndFraudCustomer                  4998 non-null   int64  
+ 49  gIndFirstFraud                     4998 non-null   int64  
+ 50  gRandomNumber                      4998 non-null   int64  
+ 51  gSelectedObservation               4998 non-null   int64  
+dtypes: bool(3), float64(11), int64(18), object(20)
+memory usage: 2.1+ MB
+--------Number of Unique customers---------
+4998
+--------Frequency of Exclusions---------
+0 - Not excluded    752272
+Name: gExclusions, dtype: int64
+--------Frequency of Customers with Fraud - All Transactions---------
+0    128456
+1    623816
+Name: gIndFraudCustomer, dtype: int64
+--------Data Sorted with Random Number---------
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4998 entries, 786354 to 68
+Data columns (total 52 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   accountNumber                      4998 non-null   int64  
+ 1   customerId                         4998 non-null   int64  
+ 2   creditLimit                        4998 non-null   int64  
+ 3   availableMoney                     4998 non-null   float64
+ 4   transactionDateTime                4998 non-null   object 
+ 5   transactionAmount                  4998 non-null   float64
+ 6   merchantName                       4998 non-null   object 
+ 7   acqCountry                         4998 non-null   object 
+ 8   merchantCountryCode                4998 non-null   object 
+ 9   posEntryMode                       4998 non-null   object 
+ 10  posConditionCode                   4998 non-null   object 
+ 11  merchantCategoryCode               4998 non-null   object 
+ 12  currentExpDate                     4998 non-null   object 
+ 13  accountOpenDate                    4998 non-null   object 
+ 14  dateOfLastAddressChange            4998 non-null   object 
+ 15  cardCVV                            4998 non-null   int64  
+ 16  enteredCVV                         4998 non-null   int64  
+ 17  cardLast4Digits                    4998 non-null   int64  
+ 18  transactionType                    4998 non-null   object 
+ 19  currentBalance                     4998 non-null   float64
+ 20  cardPresent                        4998 non-null   bool   
+ 21  expirationDateKeyInMatch           4998 non-null   bool   
+ 22  isFraud                            4998 non-null   bool   
+ 23  transactionDateTimeDtType          4998 non-null   int64  
+ 24  currentExpDateDtType               4998 non-null   int64  
+ 25  accountOpenDateDtType              4998 non-null   int64  
+ 26  dateOfLastAddressChangeDtType      4998 non-null   int64  
+ 27  gTransactionKey                    4998 non-null   object 
+ 28  gIndCustIdEqAcctNum                4998 non-null   object 
+ 29  gIndCardCvvEqEnteredCVV            4998 non-null   object 
+ 30  gIndDtAddrChangeEqAcctOpenDt       4998 non-null   object 
+ 31  gTransactionDateTime               4998 non-null   int64  
+ 32  gIndChangeInCustomerId             4998 non-null   object 
+ 33  gIndDuplicateTransaction           4998 non-null   object 
+ 34  gIndMerchNameMatch                 4998 non-null   object 
+ 35  gChangeInTransactionAmount         4784 non-null   float64
+ 36  gChangeInTransactionTime           4784 non-null   float64
+ 37  gChangeInTransactionTimeMonths     4784 non-null   float64
+ 38  gChangeInTransactionTimeDays       4784 non-null   float64
+ 39  gChangeInTransactionTimeMinutes    4784 non-null   float64
+ 40  gDateOfLastAddressChange           4998 non-null   int64  
+ 41  gAccountOpenDate                   4998 non-null   int64  
+ 42  gNumDaysSinceLastAddressChange     4998 non-null   float64
+ 43  gIndLastAddressChangeWithin30Days  4998 non-null   int64  
+ 44  gNumMonthsOpen                     4998 non-null   float64
+ 45  gMerchantCategoryCodeRiskTable     4973 non-null   float64
+ 46  gExclusions                        4998 non-null   object 
+ 47  gDateFirstFraud                    4998 non-null   object 
+ 48  gIndFraudCustomer                  4998 non-null   int64  
+ 49  gIndFirstFraud                     4998 non-null   int64  
+ 50  gRandomNumber                      4998 non-null   int64  
+ 51  gSelectedObservation               4998 non-null   int64  
+dtypes: bool(3), float64(11), int64(18), object(20)
+memory usage: 2.1+ MB
+--------Number of Unique customers---------
+4998
+--------Frequency of Customers with Fraud - Selected Transactions---------
+0    2940
+1    2058
+Name: gIndFraudCustomer, dtype: int64
